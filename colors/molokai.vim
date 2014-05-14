@@ -110,9 +110,9 @@ hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 if s:molokai_original == 1
    hi Normal          guifg=#F8F8F2 guibg=#000000
    hi Comment         guifg=#908D7E
-   hi CursorLine                    guibg=#3E3D32
+   hi CursorLine                    guibg=#1F1E19
    hi CursorLineNr    guifg=#FD971F               gui=none
-   hi CursorColumn                  guibg=#3E3D32
+   hi CursorColumn                  guibg=#1F1E19
    hi ColorColumn                   guibg=#3B3A32
    hi LineNr          guifg=#BCBCBC guibg=#3B3A32
    hi NonText         guifg=#75715E
