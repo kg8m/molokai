@@ -97,7 +97,7 @@ hi Todo            guifg=#FFFFFF guibg=bg      gui=bold
 
 hi Typedef         guifg=#66D9EF
 hi Type            guifg=#66D9EF               gui=none
-hi Underlined      guifg=#808080               gui=underline
+hi Underlined      guifg=#AAAAAA               gui=underline
 
 hi VertSplit       guifg=#808080 guibg=#080808 gui=bold
 hi VisualNOS                     guibg=#403D3D gui=bold
@@ -110,7 +110,7 @@ hi TabLine         guibg=#1B1D1E guifg=#808080 gui=none
 
 if s:molokai_original == 1
    hi Normal          guifg=#F8F8F2 guibg=#000000
-   hi Comment         guifg=#908D7E
+   hi Comment         guifg=#AAAAAA
    hi CursorLine                    guibg=#1F1E19
    hi CursorLineNr    guifg=#FD971F               gui=none
    hi CursorColumn                  guibg=#1F1E19
@@ -216,7 +216,7 @@ if &t_Co > 255
 
    hi Typedef         ctermfg=81
    hi Type            ctermfg=81                cterm=none
-   hi Underlined      ctermfg=244               cterm=underline
+   hi Underlined      ctermfg=247               cterm=underline
 
    hi VertSplit       ctermfg=244 ctermbg=232   cterm=bold
    hi VisualNOS                   ctermbg=238   cterm=bold
@@ -224,7 +224,7 @@ if &t_Co > 255
    hi WarningMsg      ctermfg=231 ctermbg=238   cterm=bold
    hi WildMenu        ctermfg=81  ctermbg=16
 
-   hi Comment         ctermfg=59
+   hi Comment         ctermfg=247
    hi CursorColumn                ctermbg=234
    hi ColorColumn                 ctermbg=234
    hi LineNr          ctermfg=250 ctermbg=234
